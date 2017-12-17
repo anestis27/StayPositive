@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Stay Positive</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="no_elements">Η λίστα είναι άδεια!</string>
+    <string name="add_a_new_day">Προσθήκη νέας μέρας</string>
+    <string name="date">Ημερομηνία :</string>
+    <string name="_1th_note">1η Σημείωση :</string>
+    <string name="clear_history">Διαγραφή ιστορικού</string>
+    <string name="_2th_note">2η Σημείωση :</string>
+    <string name="_3th_note">3η Σημείωση :</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Οχι</string>
+    <string name="overwrite_entry">Επανεγγραφή προσθήκης!</string>
+    <string name="you_want_to_overwrite_this_entry">Είστε σίγουροι οτι θέλετε να επανεγγράψετε την προσθήκη;</string>
+    <string name="delete_entry">Διαγραφή προσθήκης!</string>
+    <string name="you_want_to_delete_this_entry">Είστε σίγουροι οτι θέλετε να διαγράψετε την προσθήκη;</string>
+</resources>

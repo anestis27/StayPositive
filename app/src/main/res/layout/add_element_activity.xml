@@ -1,0 +1,185 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/dateText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:padding="10dp"
+                    android:text="@string/date"
+                    android:textColor="#de000000"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/dateButton"
+                    style="@android:style/Widget.Holo.Spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0.7"
+                    android:text="10-10-2010" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/LinearLayout1"
+                android:orientation="horizontal"
+                android:paddingTop="30dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/note1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/_1th_note"
+                    android:textColor="#de000000"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textView"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toEndOf="@+id/textView"
+                    android:layout_toRightOf="@+id/textView"
+                    android:layout_weight="0.92"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    style="@style/ContactTextView"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.22" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/LinearLayout2"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/note2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/_2th_note"
+                    android:textColor="#de000000"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textView"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toEndOf="@+id/textView"
+                    android:layout_toRightOf="@+id/textView"
+                    android:layout_weight="0.92"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    style="@style/ContactTextView"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.22" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/LinearLayout3"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/note3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/_3th_note"
+                    android:textColor="#de000000"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_weight="0.92"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    style="@style/ContactTextView"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.22" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="Record"
+                android:id="@+id/record"
+                android:layout_below="@+id/LinearLayout4"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

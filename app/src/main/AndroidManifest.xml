@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.orion.staypositive">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/three_good_things"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/three_good_things"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.orion.staypositive.AddElementActivity"
+            android:label="@string/add_a_new_day"
+           >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.orion.staypositive.MainActivity"
+                />
+        </activity>
+
+        <activity android:name="com.example.orion.staypositive.SelectedItem"
+            android:label="@string/add_a_new_day"
+             >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.orion.staypositive.MainActivity"
+                />
+        </activity>
+
+    </application>
+
+</manifest>

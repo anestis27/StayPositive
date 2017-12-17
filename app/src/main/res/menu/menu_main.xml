@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.orion.staypositive.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_history"
+        android:orderInCategory="99"
+        android:title="@string/clear_history"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_save"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Save"/>
+
+    <item
+        android:id="@+id/action_edit"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Edit"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/action_delete"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_delete"
+        android:title="Delete"
+        android:orderInCategory="2" />
+
+</menu>
